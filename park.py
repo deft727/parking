@@ -59,4 +59,7 @@ def parking() -> None:
         elif command == "5":
             write_file(cars)
             print("Данные записаны")
-parking()
+            
+
+if __name__=='__main__':
+    parking()
